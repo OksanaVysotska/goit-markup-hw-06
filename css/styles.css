@@ -800,14 +800,19 @@ img {
 .label {
     display: block;
     margin-bottom: 4px;
+    
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color:var(--primary-text-color);       
 }
 
-/* .label-text {  
+.label-text {  
     font-size: 12px;
     line-height: 1.16;          
     letter-spacing: 0.01em;
     color:var(--primary-text-color) ;
-} */
+}
 
 .field {
     position: relative;
