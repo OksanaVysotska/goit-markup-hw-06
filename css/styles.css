@@ -802,13 +802,12 @@ img {
     margin-bottom: 4px;
 }
 
-.label-text {  
+/* .label-text {  
     font-size: 12px;
     line-height: 1.16;          
     letter-spacing: 0.01em;
     color:var(--primary-text-color) ;
-   
-}
+} */
 
 .field {
     position: relative;
@@ -854,20 +853,25 @@ img {
    
 }
 
-.message {
+.message {  
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: var(--primary-text-color);
+
     height: 120px;
     padding: 15px;
     margin-bottom: 20px;
     resize: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
-  
-}
+  }
 
 .message::placeholder {
-    
+
     /* font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;     */
+    
     color: rgba(117, 117, 117, 0.5);
 }
 
